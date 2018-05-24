@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# bdd-app
+Behavioral-driven Development Test Application
+>>>>>>> 9ee1bd86a9e154c5a09149b335af6b2f82445347
