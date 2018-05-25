@@ -11,6 +11,5 @@ RSpec.describe HomeController do
 
       expect(response.status).to be(200)
     end
-
   end
 end

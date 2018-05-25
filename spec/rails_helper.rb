@@ -28,7 +28,7 @@ RSpec.configure do |config|
   end
 
   config.include Warden::Test::Helpers
-  config.include Devise::TestHelpers, type: :controller
+  config.include Devise::Test::ControllerHelpers, type: :controller
   config.include ControllerHelpers, type: :controller
 
 
@@ -38,9 +38,9 @@ end
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
     with.test_framework :rspec
-    with.library
-    with.library
-    with.library
-    with.library
+    with.library :active_record
+    with.library :active_model
+    with.library :action_controller
+    with.library :rails
   end
 end
